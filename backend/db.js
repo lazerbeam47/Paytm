@@ -1,8 +1,6 @@
 const mongoose=require('mongoose');
 
-mongoose.connect("mongodb+srv://dabbumothsera:GsNfuopMY5JSWhXs@cluster0.5sysz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-.then(()=>console.log("Connected to MongoDB"))
-.catch((error)=>console.error("Error connecting to MongoDb",error));
+mongoose.connect("Connect to your mongoose URI");
 
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
